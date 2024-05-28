@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './component/Navbar';
-import Product from './component/Products';
+import "./App.css";
+import Navbar from "./component/Navbar";
+import MainSection from "./pages/MainSection";
 
 function App() {
   return (
-   
     <div className="App">
-       <Navbar></Navbar>
-
-       <Product></Product>
-      
+      <Navbar></Navbar>
+      <MainSection />
     </div>
   );
 }
