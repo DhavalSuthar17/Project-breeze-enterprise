@@ -5,7 +5,7 @@ import {  NavLink } from "react-router-dom";
 const Navbar = () => {
     return(
         <div>
-            <nav className="flex justify-between">
+            <nav className="flex justify-between mt-5 w-[80%] mx-auto">
 
                 <NavLink to='/'>
                 <div>
@@ -17,26 +17,26 @@ const Navbar = () => {
 
                 <div className="flex gap-x-10">
                     <NavLink to='/'>
-                        <div>
+                        <div className=" font-semibold text-xl ">
                              Home 
                         </div>
                     </NavLink>
 
                     <NavLink to='/'>
-                        <div>
+                        <div className=" font-semibold text-xl ">
                              Product 
                         </div>
                     </NavLink>
 
 
                     <NavLink to='/'>
-                        <div>
+                        <div className=" font-semibold  text-xl ">
                              About Us
                         </div>
                     </NavLink>
 
                     <NavLink to='/'>
-                        <div>
+                        <div className="  font-semibold text-xl ">
                              Contact Us  
                         </div>
                     </NavLink>

@@ -4,8 +4,8 @@ const productData = [
         productName:"malto dextrin",
         productBrand1:"gujarat ambuja",
         productBrand2:"bluecraft",
-        image1:"..\asset\Dhaval file\photo\malto-dextrin-gujarat-ambuja-500x500.webp",
-        image2:"..\asset\Dhaval file\photo\maltodextrin bluecraft.jpeg"
+        image1:"../asset/Dhaval file/photo/malto-dextrin-gujarat-ambuja-500x500.webp",
+        image2:"../asset/Dhaval file/photo/maltodextrin bluecraft.jpeg"
     },
 
     {
@@ -13,8 +13,8 @@ const productData = [
         productName:"starch comercial",
         productBrand1:"sayaji",
         productBrand2:"everest",
-        image1:"..\asset\Dhaval file\photo\starch sayaji.jpeg",
-        image2:"..\asset\Dhaval file\photo\starch everest.jpeg"
+        image1:"../asset/Dhaval file/photo/starch sayaji.jpeg",
+        image2:"../asset/Dhaval file/photo/starch everest.jpeg"
     },
 
     {
@@ -22,15 +22,15 @@ const productData = [
         productName:"dextrose monohydrate",
         productBrand1:"sayaji",
         productBrand2:"everest",
-        image1:"..\asset\Dhaval file\photo\dextrose-mono-hydrate-sayaji.jpg",
-        image2:"..\asset\Dhaval file\photo\dextrose monohydrate everest.jpeg"
+        image1:"../asset/Dhaval file/photo/dextrose-mono-hydrate-sayaji.jpg",
+        image2:"../asset/Dhaval file/photo/dextrose monohydrate everest.jpeg"
     },
 
     {
         id:4,
         productName:"starch ip",
         productBrand1:"sayaji",
-        image1:"..\asset\Dhaval file\photo\starch sayaji.jpeg"
+        image1:"../asset/Dhaval file/photo/starch sayaji.jpeg"
         
     },
 
@@ -40,7 +40,7 @@ const productData = [
         id:5,
         productName:"starch bp",
         productBrand1:"sayaji",
-        image1:"..\asset\Dhaval file\photo\starch bp sayaji.jpeg"
+        image1:"../asset/Dhaval file/photo/starch bp sayaji.jpeg"
     },
 
     
@@ -49,8 +49,8 @@ const productData = [
         productName:"dextrose anhydrose",
         productBrand1:"sayaji",
         productBrand2:"everest",
-        image1:"..\asset\Dhaval file\photo\dextroseanhydroussayaji.jpeg",
-        image2:"..\asset\Dhaval file\photo\everest dexanhydrous.jpg"
+        image1:"../asset/Dhaval file/photo/dextroseanhydroussayaji.jpeg",
+        image2:"../asset/Dhaval file/photo/everest dexanhydrous.jpg"
     },
 
     
@@ -58,7 +58,7 @@ const productData = [
         id:7,
         productName:"special starch",
         productBrand1:"sayaji",
-        image1:"..\asset\Dhaval file\photo\special starch sy.jpeg"
+        image1:"../asset/Dhaval file/photo/special starch sy.jpeg"
        
     },
 
@@ -67,7 +67,7 @@ const productData = [
         id:8,
         productName:"yellow dextrin",
         productBrand1:"sayaji",
-        image1:"..\asset\Dhaval file\photo\yellow-dextrine-maize-sayaji.webp"
+        image1:"../asset/Dhaval file/photo/yellow-dextrine-maize-sayaji.webp"
        
     },
 
@@ -79,8 +79,8 @@ const productData = [
         productBrand1:"gujarat ambuja",
         productBrand2:"sayaji",
         productBrand3:"roquette",
-        image2:"..\asset\Dhaval file\photo\liquide glucouse sayaji.jpeg",
-        image3:"..\asset\Dhaval file\photo\liquid gls.jpeg"
+        image2:"../asset/Dhaval file/photo/liquide glucouse sayaji.jpeg",
+        image3:"../asset/Dhaval file/photo/liquid gls.jpeg"
     },
 
     
@@ -88,7 +88,7 @@ const productData = [
         id:10,
         productName:"sorbitol",
         productBrand1:"sayaji",
-        image1:"..\asset\Dhaval file\photo\sorbitol sol.jpeg"
+        image1:"../asset/Dhaval file/photo/sorbitol sol.jpeg"
       
     },
 
@@ -97,7 +97,7 @@ const productData = [
         id:11,
         productName:"primitax 19036",
         productBrand1:"blandehub",
-        image:"..\asset\Dhaval file\photo\blendhub.jpeg"
+        image:"../asset/Dhaval file/photo/blendhub.jpeg"
      
     },
 
@@ -116,7 +116,7 @@ const productData = [
         productName:"defatted soya flour untoasted",
         productBrand1:"gujarat ambuja",
         productBrand2:"patanjali food",
-        image1:"..\asset\Dhaval file\photo\soya ambuja untoasted.jpeg"
+        image1:"../asset/Dhaval file/photo/soya ambuja untoasted.jpeg"
     },
 
     
@@ -137,4 +137,7 @@ const productData = [
     
     },
 
-]
+];
+
+
+export default productData;
