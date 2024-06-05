@@ -22,7 +22,7 @@ const About = () => {
               About Us
             </h1>
 
-            <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
+            <p className="text-base font-medium  lg:w-[95%]">
               <span className="font-bold">Brijesh N Prajapati </span>- is a
               leading supplier of pharmaceutical raw materials in India. We are
               a trusted partner to the industry for over 20 years. Our products
@@ -31,7 +31,7 @@ const About = () => {
               are committed to providing our customers with the highest quality
               products and services at competitive prices.
             </p>
-            <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
+            <p className="text-base font-medium  lg:w-[95%]">
               <div>
                 Customer Support:-{" "}
                 <span className=" font-semibold  ">
