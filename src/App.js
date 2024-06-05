@@ -4,12 +4,12 @@ import Products from "./component/Products";
 import MainSection from "./pages/MainSection";
 
 function App() {
-  console.log("Product Data", productData);
+  // console.log("Product Data", productData);
   return (
-
     <div className="App">
       <Navbar></Navbar>
       <MainSection />
+      <Products />
     </div>
   );
 }
