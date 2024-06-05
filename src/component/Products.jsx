@@ -1,7 +1,7 @@
 import React from "react"
 import productData from "../asset/data"
 
-const Product = () => {
+const Products = () => {
 
     console.log(productData[0].image1)
  
@@ -10,40 +10,59 @@ const Product = () => {
 
     return(
         <div className=" grid-cols-3  justify-center items-center" >
+            <div className=" text-center text-3xl lg:text-5xl mt-6  md:mt-4 mb-12 uppercase font-semibold">
+                <h1>Products</h1>
+            </div>
 
             {
                 productData.length === 0 ?
                 (<div> No data found </div>):
-                (productData.map((product) => (
-                    <div className="flex gap-60 gap-y-60 p-20   justify-center  " key={product.id}>
+                (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4 mx-16">
+                        
+                        {
+                        
+                       
+                                    productData.map((product) => (
+                                  <div className="border rounded-lg p-4 shadow-lg flex flex-col justify-between" key={product.id}>
 
                         
-                      <div className="flex-col items-center justify-center space-y-4 border p-6">
-                      <img width={100} height={100} src={product.image1} />
-                        
-                        <p>{product.productName}</p>
-                        <p>{product.productBrand1}</p>
-                        </div>
+                                                    
+                                                       <img className="w-full  h-max object-fill mb-4 rounded-md" src={product.image} />
+                                                       <div>
 
-                        <div className="flex-col items-center justify-center border p-6">
-                        <img height={100} width={100} src={product.image2}/>
-                        
-                        <p>{product.productName}</p>
-                        <p>{product.productBrand2}</p>
+                                                       <h2 className="text-xl font-semibold uppercase">{product.productName}</h2>
+                                                           <p className="text-gray-600 uppercase text-lg">{product.productBrand}</p>
 
-                        </div>
-                        <div className="flex-col items-center justify-center border p-6">
-                        <img height={100} width={100} src={product.image3}/>
-                        
-                        <p>{product.productName}</p>
-                        <p>{product.productBrand3}</p>
 
-                        </div>
+                                                     
 
                         
-
-                    </div>
-                )))
+                                                            
+                                                   </div>
+                                      {/* 
+                                           <div className="flex-col items-center justify-center border p-6">
+                                           <img height={100} width={100} src={product.image}/>
+                                           
+                                           <p>{product.productName}</p>
+                                           <p>{product.productBrand}</p>
+                   
+                                           </div>
+                                           <div className="flex-col items-center justify-center border p-6">
+                                           <img height={100} width={100} src={product.image}/>
+                                           
+                                           <p>{product.productName}</p>
+                                           <p>{product.productBrand}</p>
+                   
+                                           </div> 
+                                      */}
+                   
+                                    </div>
+                    
+                )
+            )
+                        }
+                    </div>)
             }
      
 
@@ -51,4 +70,4 @@ const Product = () => {
     )
 }
 
-export default Product;
+export default Products;

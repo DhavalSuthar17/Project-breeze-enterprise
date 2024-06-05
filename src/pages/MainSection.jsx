@@ -6,7 +6,7 @@ const MainSection = () => {
   return (
     <div className="bg-white flex xl:flex-row flex-col  lg:flex-row justify-between items-center  lg:min-h-[90vh] xl:min-h-[90vh]  w-11/12 mx-auto ">
       <div>
-        <div className="font-inter mx-6">
+        <div className="font-inter mx-8">
           <p className="xl:text-[100px] lg:text-[95px] text-[50px] font-semibold text-[#D82782]">
             Breeze
           </p>
@@ -17,7 +17,7 @@ const MainSection = () => {
             Your Source for Pharmaceutical Raw Materials
           </p>
         </div>
-        <div className="mx-6 my-4">
+        <div className="mx-6 my-4 ">
           <CTAbtn linkto="/products">Explore</CTAbtn>
         </div>
       </div>
