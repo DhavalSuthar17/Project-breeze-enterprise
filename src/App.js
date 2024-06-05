@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
 import Products from "./component/Products";
+import About from "./pages/About";
 import MainSection from "./pages/MainSection";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar></Navbar>
       <MainSection />
       <Products />
+      <About />
     </div>
   );
 }
