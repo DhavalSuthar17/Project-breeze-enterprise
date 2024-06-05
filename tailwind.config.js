@@ -5,8 +5,14 @@ module.exports = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       "edu-sa": ["Edu SA Beginner", "cursive"],
+      josefin: ["Josefin Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        // start: "#46BBCD",
+        // end: "#D82782",
+      },
+    },
   },
   plugins: [],
 };
