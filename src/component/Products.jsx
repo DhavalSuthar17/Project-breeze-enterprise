@@ -3,7 +3,7 @@ import productData from "../asset/data"
 
 const Products = () => {
 
-    console.log(productData[0].image1)
+   
  
      
     
@@ -15,6 +15,8 @@ const Products = () => {
             </div>
 
             {
+
+                // logic for the product show on page
                 productData.length === 0 ?
                 (<div> No data found </div>):
                 (
@@ -40,22 +42,7 @@ const Products = () => {
                         
                                                             
                                                    </div>
-                                      {/* 
-                                           <div className="flex-col items-center justify-center border p-6">
-                                           <img height={100} width={100} src={product.image}/>
-                                           
-                                           <p>{product.productName}</p>
-                                           <p>{product.productBrand}</p>
-                   
-                                           </div>
-                                           <div className="flex-col items-center justify-center border p-6">
-                                           <img height={100} width={100} src={product.image}/>
-                                           
-                                           <p>{product.productName}</p>
-                                           <p>{product.productBrand}</p>
-                   
-                                           </div> 
-                                      */}
+                                    
                    
                                     </div>
                     
