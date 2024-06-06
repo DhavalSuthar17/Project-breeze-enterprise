@@ -1,25 +1,17 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
 import Products from "./component/Products";
+import About from "./pages/About";
 import MainSection from "./pages/MainSection";
 
-import { Route, Routes } from 'react-router-dom';
-
-
 function App() {
+  // console.log("Product Data", productData);
   return (
-
     <div className="App">
-      <Navbar/>
-     
-      <Routes>
-
-               <Route path='/' element={<MainSection/>}/>
-               <Route path='/products' element={<Products/>}/>
-                 
-                 
-                 
-      </Routes>
+      <Navbar></Navbar>
+      <MainSection />
+      <Products />
+      <About />
     </div>
   );
 }
