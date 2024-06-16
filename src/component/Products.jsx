@@ -5,9 +5,9 @@ const Products = () => {
   //   console.log(productData[0].image1);
 
   return (
-    <div className=" grid-cols-3  justify-center items-center">
-      <div className=" text-center text-3xl lg:text-5xl mt-6  md:mt-4 mb-12 uppercase font-semibold">
-        <h1>Products</h1>
+    <div id="products" className=" grid-cols-3  font-josefin justify-center items-center">
+      <div className=" text-center text-3xl lg:text-5xl mt-6  md:mt-4 mb-12 capitalize text-[#46BBCD] font-semibold">
+        <h1>our range of Products</h1>
       </div>
 
       {productData.length === 0 ? (
@@ -25,10 +25,10 @@ const Products = () => {
                 alt="productImages"
               />
               <div>
-                <h2 className="text-xl font-semibold uppercase">
+                <h2 className="text-xl font-semibold  capitalize">
                   {product.productName}
                 </h2>
-                <p className="text-gray-600 uppercase text-lg">
+                <p className="text-gray-600 capitalize text-lg">
                   {product.productBrand}
                 </p>
               </div>

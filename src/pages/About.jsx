@@ -4,7 +4,7 @@ import CTAbtn from "../component/common/CTAbtn";
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className="mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-richblack-500">
         {/* foudning story wala div */}
         <div className="flex flex-col items-center gap-10 lg:flex-row justify-between ">
@@ -25,7 +25,7 @@ const About = () => {
             <p className="text-base font-medium  lg:w-[95%]">
               <span className="font-bold">Brijesh N Prajapati </span>- is a
               leading supplier of pharmaceutical raw materials in India. We are
-              a trusted partner to the industry for over 20 years. Our products
+              a trusted partner to the industry for over 13 years. Our products
               are used in the manufacture of a wide range of pharmaceutical
               products including tablets, capsules, injectables, and more. We
               are committed to providing our customers with the highest quality

@@ -2,10 +2,11 @@ import React from "react";
 import img1 from "../asset/Dhaval file/photo/MainSectionImg.png";
 import CTAbtn from "../component/common/CTAbtn";
 import { TypeAnimation } from "react-type-animation";
+import {scrollToSection} from "../component/Navbar"
 
 const MainSection = () => {
   return (
-    <div className="bg-white flex xl:flex-row flex-col  lg:flex-row xl:justify-between lg:justify-between justify-center items-center  lg:min-h-[90vh] xl:min-h-[90vh]  w-11/12 mx-auto ">
+    <div id="home" className="bg-white flex xl:flex-row flex-col mt-6  lg:flex-row xl:justify-between lg:justify-between justify-center items-center  lg:min-h-[90vh] xl:min-h-[90vh]  w-11/12 mx-auto ">
       <div className="">
         <div className=" font-josefin mx-6  ">
           <div className="md:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[450px] w-[270px]">
@@ -34,11 +35,11 @@ const MainSection = () => {
             </p>
           </div>
         </div>
-        <div className="mx-6 my-8">
+        <div className="mx-6 my-8 ">
           <CTAbtn linkto="/products">Explore</CTAbtn>
         </div>
       </div>
-      <div className="shadow-[10px_-5px_50px_-5px] shadow-[#D82782]">
+      <div className="">
         <img
           src={img1}
           alt="Home-Section-Img"
