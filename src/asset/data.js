@@ -14,7 +14,7 @@ import spssy from "../asset/Dhaval file/photo/special starch sy.jpeg"
 import sbsy from "../asset/Dhaval file/photo/starch bp sayaji.jpeg"
 import sever from "../asset/Dhaval file/photo/starch everest.jpeg"
 import ydms from "../asset/Dhaval file/photo/yellow-dextrine-maize-sayaji.webp"
-import newmaltoambuja1 from "../asset/Dhaval file/photo/newmaltoambuja1.jpeg"
+
 
 
 const productData = [
